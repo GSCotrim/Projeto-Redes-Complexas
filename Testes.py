@@ -4,7 +4,7 @@ import numpy.testing
 
 class TestEverythingInOneSingleFile(unittest.TestCase):
 
-    def test_ramificacao_simples(self):
+    def test_primeiro(self):
         # GIVEN
 
         # WHEN

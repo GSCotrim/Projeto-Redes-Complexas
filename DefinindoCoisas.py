@@ -10,8 +10,8 @@ def definindo_sistema():
     res_A = Reservatorio("A", 10, 0)
     altura_B = sp.symbols('altura_B')
     no_B = Nos("B", altura_B, 0)
-    res_C = Reservatorio("C", 15, 0)
-    res_D = Reservatorio("D", 30, 0)
+    res_C = Reservatorio("C", 30, 0)
+    res_D = Reservatorio("D", 15, 0)
 
     ## DUTOS
     vazao_1 = sp.symbols('vazao_1')

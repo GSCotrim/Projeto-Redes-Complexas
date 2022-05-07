@@ -32,9 +32,12 @@ class Sistema(object):
 
     def give_dutos_please(self):
         batata = list(filter(lambda xxx: type(xxx) is Duto, self.dutos))
+        print(batata)
         return batata
 
     # TODO: Limpar código. Tirar contador e ".append(0)"
+    # Será que não vale a pena definir "duto_vazao_substituto" antes de entrar no for e só usar um "if", sem necessidade
+    # de um "else"
     def equacoes_massa(self):
         funcoes_massa = []
         nos = self.give_nos_please()
@@ -46,12 +49,13 @@ class Sistema(object):
             for duto in dutos:
                 if duto.no_inicial == no:
                     duto_vazao_substituto = duto.vazao * -1
-                    # duto.vazao = duto.vazao * -1
-                    funcoes_massa[contador] += duto_vazao_substituto
-                # funcoes_massa[contador] += duto.vazao
+
+                else:
+                    duto_vazao_substituto = duto.vazao
+
+                funcoes_massa[contador] += duto_vazao_substituto
 
             funcoes_massa[contador] -= no.vazao_pontual
-            # funcoes_massa[contador] -= no.vazao_pontual
 
         return funcoes_massa
 
