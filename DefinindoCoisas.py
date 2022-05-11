@@ -8,15 +8,15 @@ from Sistema import *
 def definindo_sistema():
     ## NOS
     res_A = Reservatorio("A", 10, 0)
-    altura_B = sp.symbols('altura_B')
+    altura_B = sp.symbols('x[3]')
     no_B = Nos("B", altura_B, 0)
     res_C = Reservatorio("C", 30, 0)
     res_D = Reservatorio("D", 15, 0)
 
     ## DUTOS
-    vazao_1 = sp.symbols('vazao_1')
-    vazao_2 = sp.symbols('vazao_2')
-    vazao_3 = sp.symbols('vazao_3')
+    vazao_1 = sp.symbols('x[0]')
+    vazao_2 = sp.symbols('x[1]')
+    vazao_3 = sp.symbols('x[2]')
     duto_AB = Duto(res_A, no_B, vazao_1, 1.42 * 10 ** 3)
     duto_BC = Duto(no_B, res_C, vazao_2, 1.32 * 10 ** 4)
     duto_BD = Duto(no_B, res_D, vazao_3, 6.28 * 10 ** 4)

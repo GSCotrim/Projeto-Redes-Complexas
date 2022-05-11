@@ -1,6 +1,7 @@
 from Nos import *
 from Duto import *
 from Reservatorio import *
+import numpy as np
 
 
 class Sistema(object):
@@ -32,7 +33,6 @@ class Sistema(object):
 
     def give_dutos_please(self):
         batata = list(filter(lambda xxx: type(xxx) is Duto, self.dutos))
-        print(batata)
         return batata
 
     # TODO: Limpar código. Tirar contador e ".append(0)"
@@ -40,11 +40,13 @@ class Sistema(object):
     # de um "else"
     def equacoes_massa(self):
         funcoes_massa = []
+        str_funcoes_massa = [] ##
         nos = self.give_nos_please()
         contador = -1
         for no in nos:
             contador += 1
             funcoes_massa.append(0)
+            str_funcoes_massa.append('') ##
             dutos = self.give_dutos_do_no_please(no)
             for duto in dutos:
                 if duto.no_inicial == no:
@@ -55,7 +57,13 @@ class Sistema(object):
 
                 funcoes_massa[contador] += duto_vazao_substituto
 
+                # if duto_vazao_substituto >= 0: ##
+                #     str_funcoes_massa[contador] += '+' ##
+
+                # str_funcoes_massa[contador] += str(duto_vazao_substituto) ##
+
             funcoes_massa[contador] -= no.vazao_pontual
+            # str_funcoes_massa[contador] += '-' + str(no.vazao_pontual) ##
 
         return funcoes_massa
 
@@ -64,7 +72,7 @@ class Sistema(object):
         dutos = self.give_dutos_please()
         for duto in dutos:
             funcoes_energia.append(
-                duto.no_inicial.altura - duto.no_final.altura - duto.resistencia_hidraulica * duto.vazao * abs(
+                duto.no_inicial.altura - duto.no_final.altura - duto.resistencia_hidraulica * duto.vazao * np.abs(
                     duto.vazao) + duto.valor_bomba)
 
         return funcoes_energia
@@ -73,9 +81,15 @@ class Sistema(object):
         funcoes_massa = self.equacoes_massa()
         funcoes_energia = self.equacoes_energia()
         sistema_equacoes = []
+        str_sistema_equacoes = [] ##
         for func in funcoes_massa:
             sistema_equacoes.append(func)
+            str_sistema_equacoes.append(str(func)) ##
+
         for func in funcoes_energia:
             sistema_equacoes.append(func)
+            str_eq = str(func) ##
+            str_sistema_equacoes.append(str_eq.replace('Abs', 'np.abs')) ##
 
-        return sistema_equacoes
+        return str_sistema_equacoes
+
