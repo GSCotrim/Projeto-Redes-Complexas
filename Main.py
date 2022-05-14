@@ -1,7 +1,3 @@
-from DefinindoCoisas import *
-from Sistema import *
-from scipy.optimize import fsolve
-import numpy as np
 from Solver import *
 
 
@@ -15,7 +11,11 @@ from Solver import *
 #  - Pressurizada
 
 def main():
-    definindo_sistema()
+    sistema = definindo_sistema()
+    eq = sistema.sistema_de_equacoes()
+    solver = Solver(eq)
+    func = solver.func()
+    solver.solve_system(func)
 
 
 main()

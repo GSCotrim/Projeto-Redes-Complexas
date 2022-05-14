@@ -1,7 +1,4 @@
 import sympy as sp
-from Duto import *
-from Nos import *
-from Reservatorio import *
 from Sistema import *
 
 
@@ -24,19 +21,12 @@ def definindo_sistema():
     ## SISTEMA
     sistema = Sistema([duto_AB, duto_BC, duto_BD], [res_A, no_B, res_C, res_D])
 
-    ## SE QUISER UM GRAFO
-    # sistema.grafo()
-
-    ## Quero saber todos os dutos que passam no nó B
-    sistema.give_reservatorios_please()
-    sistema.give_nos_please()
-    sistema.give_dutos_do_no_please(res_C)
-    sistema.give_dutos_do_no_please(no_B)
-    sistema.give_dutos_do_no_por_nome_please("D")
-    sistema.sistema_de_equacoes()
-
-    ## pra fazer as contas
-    # sistema.give_dutos(NO)
-    # for duto in dutos:
+    # ## Quero saber todos os dutos que passam no nó B
+    # sistema.give_reservatorios_please()
+    # sistema.give_nos_please()
+    # sistema.give_dutos_do_no_please(res_C)
+    # sistema.give_dutos_do_no_please(no_B)
+    # sistema.give_dutos_do_no_por_nome_please("D")
+    # sistema.sistema_de_equacoes()
 
     return sistema

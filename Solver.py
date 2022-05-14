@@ -2,16 +2,28 @@ from DefinindoCoisas import *
 from scipy.optimize import fsolve
 import numpy as np
 
-sistema = definindo_sistema()
-eq = sistema.sistema_de_equacoes()
 
-batata = 'lambda x : [' + ','.join(eq) + ']'
+class Solver(object):
 
-solve = eval(batata)
-chute_inicial = np.array([0.5, 0.5, 0.5, 0.5])
-root = fsolve(solve, chute_inicial)
+    def __init__(self, eq):
+        self.eq = eq
 
-print(np.isclose(solve(root), [0.0, 0.0, 0.0, 0.0]))
+    def func(self):
+        return 'lambda x : [' + ','.join(self.eq) + ']'
 
-print(root)
+    # func = 'lambda x : [' + ','.join(self.eq) + ']'
 
+    def solve_system(self, func):
+        size = len(self.eq)
+        chute_inicial = np.ones(size)
+
+        for i in range(size):
+            chute_inicial[i] = 0.5 * chute_inicial[i]
+
+        solve = eval(func)
+        root = fsolve(solve, chute_inicial)
+
+        print(np.isclose(solve(root), [0.0, 0.0, 0.0, 0.0]))
+        print(root)
+
+        return root
