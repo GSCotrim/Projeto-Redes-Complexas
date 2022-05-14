@@ -1,6 +1,6 @@
 class Nos(object):
 
-    def __init__(self, nome, altura, vazao_pontual):
+    def __init__(self, nome, altura, vazao_pontual=0):
         self.altura = altura
         self.vazao_pontual = vazao_pontual
         self.nome = nome
@@ -10,5 +10,3 @@ class Nos(object):
 
     def __repr__(self):
         return self.__str__()
-
-

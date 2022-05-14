@@ -1,4 +1,3 @@
-from Nos import *
 from Duto import *
 from Reservatorio import *
 import numpy as np

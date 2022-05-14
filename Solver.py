@@ -1,4 +1,3 @@
-from DefinindoCoisas import *
 from scipy.optimize import fsolve
 import numpy as np
 
@@ -23,7 +22,4 @@ class Solver(object):
         solve = eval(func)
         root = fsolve(solve, chute_inicial)
 
-        print(np.isclose(solve(root), [0.0, 0.0, 0.0, 0.0]))
-        print(root)
-
-        return root
+        return root, solve

@@ -1,4 +1,5 @@
 from Solver import *
+from DefinindoCoisas import *
 
 
 # Hipoteses:
@@ -9,6 +10,9 @@ from Solver import *
 #  - Delta Energia Cinetica = 0
 #  - Reservatorios grandes
 #  - Pressurizada
+
+# UNIDADES: SI
+
 
 def main():
     sistema = definindo_sistema()
