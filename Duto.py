@@ -28,7 +28,7 @@ class Duto(object):
         D = self.diametro
         L = self.comprimento
 
-        if f and k == 0 and self.resistencia_predet != 0:
+        if f == 0 and k == 0 and self.resistencia_predet != 0:
             resistencia = self.resistencia_predet
 
         else:
