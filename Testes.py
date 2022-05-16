@@ -159,7 +159,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
             duto_DE = Duto(no_D, no_E, vazao_3, 200)
             duto_EB = Duto(no_E, res_B, vazao_4, 100)
             duto_EG = Duto(no_E, no_G, vazao_5, 400)
-            duto_CF = Duto(no_C, no_D, vazao_6, 300)
+            duto_CF = Duto(no_C, no_F, vazao_6, 300)
             duto_GF = Duto(no_G, no_F, vazao_7, 400)
             duto_GD = Duto(no_G, no_D, vazao_8, 300)
 
@@ -180,7 +180,6 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
         zeros = np.zeros(size)
 
         # THEN
-        print(eq)
         self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolrancia))
 
 
