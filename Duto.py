@@ -3,8 +3,8 @@ from math import pi
 
 class Duto(object):
 
-    def __init__(self, no_inicial, no_final, vazao, resistencia_predet, comprimento=0, diametro=0, fator_friccao=0,
-                 coef_perdas_singulares=0, valor_bomba=0):
+    def __init__(self, no_inicial, no_final, vazao, resistencia_predet, valor_bomba, comprimento=0, diametro=0,
+                 fator_friccao=0, coef_perdas_singulares=0):
         self.no_inicial = no_inicial
         self.no_final = no_final
         self.vazao = vazao
