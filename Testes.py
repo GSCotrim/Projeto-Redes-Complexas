@@ -8,7 +8,7 @@ import logging
 
 
 class TestEverythingInOneSingleFile(unittest.TestCase):
-    tolrancia = 10 ** -7
+    tolerancia = 10 ** -7
 
     def test_exemplo_11_5_Potter_SEM_BOMBA(self):
         # GIVEN
@@ -46,7 +46,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
         zeros = np.zeros(size)
 
         # THEN
-        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolrancia))
+        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolerancia))
 
     def test_exemplo_11_5_Potter_COM_BOMBA(self):
         # GIVEN
@@ -84,7 +84,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
         zeros = np.zeros(size)
 
         # THEN
-        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolrancia))
+        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolerancia))
 
     def test_exemplo_11_5_Potter_COM_BOMBA_VAZAO_PONTUAL_NO_DIF_0(self):
         # GIVEN
@@ -124,7 +124,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
         zeros = np.zeros(size)
 
         # THEN
-        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolrancia))
+        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolerancia))
 
     def test_exemplo_11_6_Potter(self):
         # GIVEN
@@ -182,9 +182,9 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
         zeros = np.zeros(size)
 
         # THEN
-        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolrancia))
+        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolerancia))
 
-    def test_trabalho_oficial(self):
+    def test_trabalho_oficial_fator_friccao_FIXO(self):
         # GIVEN
         fator_friccao = 0.02
         perdas_singulares = 2
@@ -270,7 +270,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
         zeros = np.zeros(size)
 
         # THEN
-        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolrancia))
+        self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolerancia))
 
 
 if __name__ == '__main__':
