@@ -1,4 +1,5 @@
-from math import pi, log10, sqrt
+from math import pi
+import sympy as sp
 from Fluido import *
 
 
@@ -49,10 +50,12 @@ class Duto(object):
 
     def calculadora_fator_friccao(self):
         Re = self.reynolds()
+        # Re = 10 ** 6
         rug_rel = self.rugosidade_relativa
 
-        fator_friccao = ((-2 * log10((rug_rel / 3.7065) - (5.0272 / Re) * log10(
-            (rug_rel / 3.827) - (4.567 / Re) * log10(
+        # O LOG DO SYMPY É LOG NATURAL, NÃO É LOG10
+        fator_friccao = ((-2 * sp.log((rug_rel / 3.7065) - (5.0272 / Re) * sp.log(
+            (rug_rel / 3.827) - (4.567 / Re) * sp.log(
                 ((rug_rel / 7.7918) ** 0.9924) + (5.3326 / (208.815 + Re) ** 0.9345))))) ** 2) ** -1
 
         return fator_friccao
