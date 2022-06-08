@@ -359,7 +359,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
         # THEN
         self.assertTrue(numpy.allclose(solve(root), zeros, atol=self.tolerancia))
 
-    def test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE(self):
+    def test_exemplo_11_5_Potter_SEM_BOMBA_fator_friccao_CALCULADO(self):
         # GIVEN
         def definindo_sistema():
             ## RESERVATÓRIOS
