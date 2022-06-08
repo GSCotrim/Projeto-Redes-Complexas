@@ -1,5 +1,7 @@
 from Solver import *
 from DefinindoCoisas import *
+import numpy
+import sympy
 
 
 # Hipoteses:
@@ -23,4 +25,3 @@ def main():
 
 
 main()
-

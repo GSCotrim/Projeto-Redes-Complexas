@@ -4,6 +4,7 @@
     <list default="true" id="5587d7a2-d00f-4c69-bbbc-e3e8e9e6bfa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Duto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sistema.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sistema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes.py" afterDir="false" />
@@ -22,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -32,21 +33,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fluido.py">
+        <entry file="file://$PROJECT_DIR$/Solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Solver.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reservatorio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fluido.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -54,10 +62,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Duto.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-591">
-              <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="55">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sistema.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="67" column="110" selection-start-line="67" selection-start-column="110" selection-end-line="67" selection-end-column="110" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="401" column="30" lean-forward="true" selection-start-line="401" selection-start-column="30" selection-end-line="401" selection-end-column="30" />
+            <state relative-caret-position="-1235">
+              <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -106,6 +126,13 @@
       <find>tolrancia</find>
       <find>fator_friccao</find>
       <find>log10</find>
+      <find>0.26</find>
+      <find>x[2]</find>
+      <find>x[0]</find>
+      <find>x[10]</find>
+      <find>x[9]</find>
+      <find>0.000</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,25 +153,26 @@
         <option value="$PROJECT_DIR$/Nos.py" />
         <option value="$PROJECT_DIR$/DefinindoCoisas.py" />
         <option value="$PROJECT_DIR$/Fluido.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/Duto.py" />
         <option value="$PROJECT_DIR$/Sistema.py" />
-        <option value="$PROJECT_DIR$/Testes.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Solver.py" />
+        <option value="$PROJECT_DIR$/Testes.py" />
+        <option value="$PROJECT_DIR$/Duto.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="-2036" />
+    <option name="y" value="-182" />
+    <option name="width" value="1549" />
+    <option name="height" value="846" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Testes.py">
+  <component name="RunManager" selected="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO">
     <configuration name="AHH" type="PythonConfigurationType" factoryName="Python">
       <module name="EstudandoGrafos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,6 +281,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_6_Potter" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="EstudandoGrafos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Testes.TestEverythingInOneSingleFile.test_exemplo_11_6_Potter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="EstudandoGrafos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,20 +306,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_FIXO" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="EstudandoGrafos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_FIXO&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -298,10 +325,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in Testes.py" />
         <item itemvalue="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" />
+        <item itemvalue="Python tests.Unittests in Testes.py" />
+        <item itemvalue="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_6_Potter" />
         <item itemvalue="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE" />
-        <item itemvalue="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_FIXO" />
         <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
@@ -320,48 +347,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Testes_py - 2022.05.20 at 10h 22m 02s.xml">
+    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_trabalho_oficial_fator_friccao_CALCULADO - 2022.05.25 at 13h 51m 22s.xml">
+      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_trabalho_oficial_fator_friccao_CALCULADO - 2022.05.25 at 13h 51m 46s.xml">
+      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_trabalho_oficial_fator_friccao_CALCULADO - 2022.05.25 at 13h 52m 05s.xml">
+      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Testes_py - 2022.05.25 at 14h 29m 41s.xml">
       <configuration name="Unittests in Testes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Testes_py - 2022.05.20 at 10h 23m 16s.xml">
+    <history-entry file="Unittests_in_Testes_py - 2022.05.25 at 14h 30m 00s.xml">
       <configuration name="Unittests in Testes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Testes_py - 2022.05.20 at 10h 23m 47s.xml">
+    <history-entry file="Unittests_in_Testes_py - 2022.05.25 at 14h 30m 11s.xml">
       <configuration name="Unittests in Testes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE - 2022.05.20 at 10h 25m 19s.xml">
-      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE" configurationId="tests" />
+    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_exemplo_11_6_Potter - 2022.05.25 at 14h 30m 46s.xml">
+      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_6_Potter" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE - 2022.05.20 at 10h 25m 54s.xml">
-      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE" configurationId="tests" />
+    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_exemplo_11_6_Potter - 2022.05.25 at 14h 30m 57s.xml">
+      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_6_Potter" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE - 2022.05.20 at 10h 26m 06s.xml">
-      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE" configurationId="tests" />
+    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_trabalho_oficial_fator_friccao_CALCULADO - 2022.06.08 at 11h 46m 50s.xml">
+      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE - 2022.05.20 at 10h 26m 48s.xml">
-      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testes_py - 2022.05.20 at 10h 26m 58s.xml">
-      <configuration name="Unittests in Testes.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testes_py - 2022.05.20 at 10h 27m 10s.xml">
-      <configuration name="Unittests in Testes.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testes_py - 2022.05.20 at 10h 27m 18s.xml">
-      <configuration name="Unittests in Testes.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Testes_TestEverythingInOneSingleFile_test_trabalho_oficial_fator_friccao_CALCULADO - 2022.06.08 at 11h 47m 09s.xml">
+      <configuration name="Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-1928" y="-370" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5768501" visible="true" weight="0.15719947" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57664233" visible="true" weight="0.12539515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.4231499" side_tool="true" visible="true" weight="0.15719947" />
+      <window_info id="Favorites" order="2" sideWeight="0.42335767" side_tool="true" weight="0.12539515" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.264993" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34030685" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30653805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30975348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,13 +401,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09062171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57664233" visible="true" weight="0.12539515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.42335767" side_tool="true" weight="0.12539515" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41980475" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41264737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30975348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -425,7 +452,7 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>solve(root)</expression-string>
+        <expression-string>mesg</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -435,7 +462,27 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mesg</expression-string>
+        <expression-string>iers</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>solve(root)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mseg</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -446,26 +493,6 @@
       </expression>
       <expression>
         <expression-string>res = minimize(solve, x0=chute_inicial)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>from scipy.optimize import minimize</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>func</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>solve</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>res = minimize(solve)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -506,13 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="394" selection-start-line="394" selection-end-line="394" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reservatorio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -569,58 +589,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sistema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="401" column="30" lean-forward="true" selection-start-line="401" selection-start-column="30" selection-end-line="401" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fluido.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reservatorio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1235">
+          <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sistema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="67" column="110" selection-start-line="67" selection-start-column="110" selection-end-line="67" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

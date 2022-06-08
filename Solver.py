@@ -17,9 +17,9 @@ class Solver(object):
         chute_inicial = np.ones(size)
 
         for i in range(size):
-            chute_inicial[i] = 10 * chute_inicial[i]
+            chute_inicial[i] = 0.5 * chute_inicial[i]
 
-        func = func.replace('log', 'np.log') ##
+        func = func.replace('log', 'np.log10') ##
         solve = eval(func)
         root = fsolve(solve, chute_inicial)
         x, infodict, ier, mesg = fsolve(solve, chute_inicial, full_output=True) ##
