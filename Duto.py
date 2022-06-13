@@ -1,5 +1,6 @@
 from math import pi
 import sympy as sp
+import numpy as np
 from Fluido import *
 
 
@@ -46,17 +47,20 @@ class Duto(object):
 
         Re = (densidade_fluido * (Q / A) * D) / viscosidade_dinamica_fluido
 
-        return Re
+        return np.abs(Re)
 
     def calculadora_fator_friccao(self):
         Re = self.reynolds()
         # Re = 10 ** 6
         rug_rel = self.rugosidade_relativa
 
-        # O LOG DO SYMPY É LOG NATURAL, NÃO É LOG10
-        fator_friccao = ((-2 * sp.log((rug_rel / 3.7065) - (5.0272 / Re) * sp.log(
-            (rug_rel / 3.827) - (4.567 / Re) * sp.log(
-                ((rug_rel / 7.7918) ** 0.9924) + (5.3326 / (208.815 + Re) ** 0.9345))))) ** 2) ** -1
+        # O LOG DO SYMPY É LOG NATURAL, NÃO É LOG10 -- NA CLASSE SOLVE "CORRIGIMOS" PARA LOG BASE 10
+        # fator_friccao = ((-2 * sp.log((rug_rel / 3.7065) - (5.0272 / Re) * sp.log(
+        #     (rug_rel / 3.827) - (4.567 / Re) * sp.log(
+        #         ((rug_rel / 7.7918) ** 0.9924) + (5.3326 / (208.815 + Re) ** 0.9345))))) ** 2) ** -1
+
+        # FATOR DE FRICÇÃO HAALAND
+        fator_friccao = 1.0 / (-1.8 * sp.log((rug_rel / 3.7) ** 1.11 + 6.9 / Re)) ** 2
 
         return fator_friccao
 
