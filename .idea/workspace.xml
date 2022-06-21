@@ -4,7 +4,6 @@
     <list default="true" id="5587d7a2-d00f-4c69-bbbc-e3e8e9e6bfa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Duto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sistema.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sistema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="357">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="308">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -42,43 +41,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reservatorio.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fluido.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Duto.py">
+        <entry file="file://$PROJECT_DIR$/Sistema.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="86" lean-forward="true" selection-start-line="65" selection-start-column="86" selection-end-line="65" selection-end-column="86" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testes.py">
+        <entry file="file://$PROJECT_DIR$/Tralha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="281" column="44" lean-forward="true" selection-start-line="281" selection-start-column="44" selection-end-line="281" selection-end-column="44" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Duto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +113,8 @@
       <find>0.000</find>
       <find>log</find>
       <find>abs</find>
+      <find>viscosidade</find>
+      <find>viscosidade_dinamica</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,13 +133,14 @@
         <option value="$PROJECT_DIR$/Reservatorio.py" />
         <option value="$PROJECT_DIR$/Nos.py" />
         <option value="$PROJECT_DIR$/Fluido.py" />
-        <option value="$PROJECT_DIR$/Sistema.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Testes.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DefinindoCoisas.py" />
-        <option value="$PROJECT_DIR$/Solver.py" />
         <option value="$PROJECT_DIR$/Duto.py" />
+        <option value="$PROJECT_DIR$/Solver.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Tralha.py" />
+        <option value="$PROJECT_DIR$/Sistema.py" />
       </list>
     </option>
   </component>
@@ -162,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,14 +162,11 @@
               <item name="Projeto-Redes-Complexas" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projeto-Redes-Complexas" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Projeto-Redes-Complexas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Testes.py">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="AHH" type="PythonConfigurationType" factoryName="Python">
       <module name="EstudandoGrafos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,8 +308,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in Testes.py" />
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python tests.Unittests in Testes.py" />
         <item itemvalue="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_trabalho_oficial_fator_friccao_CALCULADO" />
         <item itemvalue="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_6_Potter" />
         <item itemvalue="Python tests.Unittests for Testes.TestEverythingInOneSingleFile.test_exemplo_11_5_Potter_SEM_BOMBA_FSOLVE" />
@@ -341,12 +330,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Testes_py - 2022.06.13 at 17h 45m 34s.xml">
-      <configuration name="Unittests in Testes.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testes_py - 2022.06.13 at 17h 46m 42s.xml">
-      <configuration name="Unittests in Testes.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_Testes_py - 2022.06.13 at 17h 50m 00s.xml">
       <configuration name="Unittests in Testes.py" configurationId="tests" />
     </history-entry>
@@ -371,17 +354,24 @@
     <history-entry file="Unittests_in_Testes_py - 2022.06.13 at 18h 04m 30s.xml">
       <configuration name="Unittests in Testes.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_Testes_py - 2022.06.14 at 10h 22m 10s.xml">
+      <configuration name="Unittests in Testes.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Testes_py - 2022.06.14 at 10h 22m 47s.xml">
+      <configuration name="Unittests in Testes.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57664233" visible="true" weight="0.15719947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57664233" visible="true" weight="0.15719947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.42335767" side_tool="true" weight="0.12539515" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30962342" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38633195" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33751744" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25801954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,6 +405,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Solver.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="python-exception">
           <properties notifyOnlyOnFirst="true" notifyOnTerminate="true" ignoreLibraries="true" exception="BaseException">
@@ -438,12 +435,17 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>ier</expression-string>
+        <expression-string>root</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>x</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ier</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -454,11 +456,6 @@
       </expression>
       <expression>
         <expression-string>solve</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>root</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -547,43 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sistema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DefinindoCoisas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reservatorio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -591,10 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fluido.py">
+    <entry file="file://$PROJECT_DIR$/Nos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -608,10 +568,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="442">
+            <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fluido.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefinindoCoisas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="70" column="93" lean-forward="true" selection-start-line="70" selection-start-column="93" selection-end-line="70" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="308">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -620,8 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -630,10 +617,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Duto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="86" lean-forward="true" selection-start-line="65" selection-start-column="86" selection-end-line="65" selection-end-column="86" />
+        <state relative-caret-position="70">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tralha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sistema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
