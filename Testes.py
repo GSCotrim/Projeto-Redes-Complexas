@@ -20,7 +20,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
 
             ## NOS
             altura_B = sp.symbols('x[3]')
-            no_B = Nos("B", altura_B, 1.42 * 10 ** -2)
+            no_B = Nos("B", altura_B)
 
             ## DUTOS
             vazao_1 = sp.symbols('x[0]')
@@ -58,7 +58,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
 
             ## NOS
             altura_B = sp.symbols('x[3]')
-            no_B = Nos("B", altura_B, 1.42 * 10 ** -2)
+            no_B = Nos("B", altura_B)
 
             ## DUTOS
             vazao_1 = sp.symbols('x[0]')
@@ -369,7 +369,7 @@ class TestEverythingInOneSingleFile(unittest.TestCase):
 
             ## NOS
             altura_B = sp.symbols('x[3]')
-            no_B = Nos("B", altura_B, 1.42 * 10 ** -2)
+            no_B = Nos("B", altura_B)
 
             ## DUTOS
             vazao_1 = sp.symbols('x[0]')
